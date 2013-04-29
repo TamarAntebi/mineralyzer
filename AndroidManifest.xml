@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="il.ac.huji.mineralyzer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="il.ac.huji.mineralyzer.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.ac.huji.mineralyzer.Hardness"
+            android:label="                    בחר מידת קשיות"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="il.ac.huji.mineralyzer.Color"
+            android:label="                    בחר צבע המירנל"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="il.ac.huji.mineralyzer.Special"
+            android:label="מהן התכונות המיוחדות של המינרל"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="il.ac.huji.mineralyzer.MineralList"
+            android:label="המינרלים שהתקבלו" 
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="il.ac.huji.mineralyzer.MineralDisplay"
+            android:label="המינרל הנבחר" />
+    </application>
+
+</manifest>
