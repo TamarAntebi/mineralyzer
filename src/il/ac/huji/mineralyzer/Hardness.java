@@ -24,11 +24,12 @@ public class Hardness extends Activity{
         courses.add("נחרץ בציפורן");
         courses.add("נחרץ במסמר");
         courses.add("אינו נחרץ במסמר");
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-        			this,
-        			android.R.layout.simple_list_item_1,
-        			courses
-        			);
+        AdapterHelper adapter = new AdapterHelper(this, courses);
+//        		new ArrayAdapter<String>(
+//        			this,
+//        			android.R.layout.simple_list_item_1,
+//        			courses
+//        			);
 		hardList.setAdapter(adapter);
 		
 		hardList.setOnItemClickListener(new OnItemClickListener() {

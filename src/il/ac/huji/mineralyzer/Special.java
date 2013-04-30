@@ -31,6 +31,8 @@ public class Special extends Activity{
 				android.R.layout.simple_list_item_multiple_choice,
 				sf
 				);
+//		AdapterHelper adapter = new AdapterHelper(this, sf);
+
 		sList.setAdapter(adapter);
 
 		getChoice.setOnClickListener(new OnClickListener() {

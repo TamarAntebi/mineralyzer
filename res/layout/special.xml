@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="right" >
+    android:layout_gravity="right"
+    android:background="@color/blue" >
 	<Button
  
     android:id="@+id/getchoice"
@@ -12,11 +13,12 @@
  
     android:layout_height="wrap_content"
  
-    android:text="Get Choice"
+    android:text="בצע"
  
     />
     <ListView
         android:id="@+id/specialList"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right" >

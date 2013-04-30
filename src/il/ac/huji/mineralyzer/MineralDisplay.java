@@ -10,6 +10,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -59,7 +62,17 @@ public class MineralDisplay extends Activity{
 			String entry3 =cursor.getString(cursor.getColumnIndex("DESCRIPTION"));
 		minerdesc.setText(entry3);
 		 }
-		db.close();
+			Button tank=(Button)findViewById(R.id.button1);
+			tank.setOnClickListener(new OnClickListener() {
+				public void onClick(View v) {
+					db.close();
+					Intent resultIntent = new Intent();
+					setResult(RESULT_OK, resultIntent);
+					finish();
+				}
+			});
+		
+			db.close();
 		//TODO return
 		//	    Intent resultIntent = new Intent();
 

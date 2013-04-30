@@ -5,12 +5,12 @@
     android:orientation="vertical" 
     android:layout_gravity="right">
 
-    <ListView
+    <TextView
         android:id="@+id/hardnessList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_gravity="right" >
-    </ListView>
+    </TextView>
 
 </LinearLayout>

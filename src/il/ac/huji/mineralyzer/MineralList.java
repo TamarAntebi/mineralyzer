@@ -8,9 +8,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class MineralList extends Activity{
@@ -34,11 +36,12 @@ public class MineralList extends Activity{
 			t.add(string);
 			
 		}
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-				this,
-				android.R.layout.simple_list_item_1,
-				t
-				);
+//		ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+//				this,
+//				android.R.layout.simple_list_item_1,
+//				t
+//				);
+		AdapterHelper adapter = new AdapterHelper(this, t);
 		mList.setAdapter(adapter);
 
 		mList.setOnItemClickListener(new OnItemClickListener() {
@@ -52,13 +55,18 @@ public class MineralList extends Activity{
 				Intent intent = new Intent(_activity, MineralDisplay.class);
 				intent.putExtra("mineral", minerl);
 				startActivityForResult(intent, 1333);
-				//TODO end
-//				Intent resultIntent = new Intent();
-//
-//				setResult(RESULT_OK, resultIntent);
-//				finish();
 			}
 		});
+		Button tank=(Button)findViewById(R.id.button1);
+		tank.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+
+				Intent resultIntent = new Intent();
+				setResult(RESULT_OK, resultIntent);
+				finish();
+			}
+		});
+	
 
 	}
 }

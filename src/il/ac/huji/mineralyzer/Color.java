@@ -22,11 +22,12 @@ public class Color extends Activity{
 		cList=(ListView)findViewById(R.id.hardnessList);
 		Intent intent = getIntent();
 		List<String> colors = (List<String>) intent.getSerializableExtra("colors");
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-				this,
-				android.R.layout.simple_list_item_1,
-				colors
-				);
+//		ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+//				this,
+//				android.R.layout.simple_list_item_1,
+//				colors
+//				);
+		AdapterHelper adapter = new AdapterHelper(this, colors);
 		cList.setAdapter(adapter);
 		
 		

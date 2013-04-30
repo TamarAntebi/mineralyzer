@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="il.ac.huji.mineralyzer"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0" 
+     android:layout_gravity="right">
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -40,7 +41,18 @@
             android:theme="@android:style/Theme.Dialog" />
         <activity
             android:name="il.ac.huji.mineralyzer.MineralDisplay"
-            android:label="המינרל הנבחר" />
+            android:label="המינרל הנבחר" 
+        android:theme="@android:style/Theme.Dialog" />
+         <activity
+            android:name="il.ac.huji.mineralyzer.Thanks"
+            android:label="תודות:" 
+             android:layout_gravity="right"
+            android:theme="@android:style/Theme.Dialog" />
+         <activity
+            android:name="il.ac.huji.mineralyzer.About"
+            android:label="אודות" 
+             android:layout_gravity="right"
+            android:theme="@android:style/Theme.Dialog" />
     </application>
 
 </manifest>

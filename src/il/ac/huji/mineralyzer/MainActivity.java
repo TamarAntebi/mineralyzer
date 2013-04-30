@@ -58,6 +58,20 @@ public class MainActivity extends Activity {
 				startActivityForResult(intent, 1337);
 			}
 		});
+		Button tank=(Button)findViewById(R.id.thanks);
+		tank.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent(_activity, Thanks.class);
+				startActivityForResult(intent, 1341);
+			}
+		});
+		Button about=(Button)findViewById(R.id.about);
+		about.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent(_activity, About.class);
+				startActivityForResult(intent, 1342);
+			}
+		});
 	}
 
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -125,7 +139,6 @@ public class MainActivity extends Activity {
 				specials[counter+1]=special;
 				counter++;
 			}
-			System.out.println("qqqqqqqqqq"+select + where);
 			for (int i = 0; i < specials.length; i++) {
 
 				System.out.println("arrr"+specials[i]);

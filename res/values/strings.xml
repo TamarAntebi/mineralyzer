@@ -4,5 +4,7 @@
     <string name="app_name">mineralyzer</string>
     <string name="action_settings">Settings</string>
     <string name="welcome">ברוכים הבאים לאפליקצית זיהוי מינרלים</string>
+    <color name="blue">#001E46</color>
+    <color name="white">#FFFFFF</color>
 
 </resources>
