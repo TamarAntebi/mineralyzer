@@ -5,17 +5,15 @@
     android:orientation="vertical"
     android:layout_gravity="right"
     android:background="@color/blue" >
+
 	<Button
- 
-    android:id="@+id/getchoice"
- 
-    android:layout_width="fill_parent"
- 
-    android:layout_height="wrap_content"
- 
-    android:text="בצע"
- 
-    />
+	    android:id="@+id/getchoice"
+	    android:layout_width="69dp"
+	    android:layout_height="70dp"
+        android:layout_marginLeft="70dp"
+	    android:background="@drawable/start"
+	    android:text="בצע" />
+
     <ListView
         android:id="@+id/specialList"
         android:textColor="@color/white"
