@@ -8,14 +8,13 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="248dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="30dp"
-        android:layout_gravity="right"
         android:text="אפליקצית זיהוי מינרלים"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/start"
@@ -41,10 +40,10 @@
 
             <Button
                 android:id="@+id/thanks"
-                android:layout_width="68dp"
-                android:layout_height="70dp"
+                android:layout_width="62dp"
+                android:layout_height="65dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/thanks" />
 
             <Button
@@ -52,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="80dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
                 android:src="@drawable/about"
                 android:background="@drawable/about"
                 android:text="" />

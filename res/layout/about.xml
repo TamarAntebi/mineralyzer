@@ -14,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:layout_gravity="right"
         android:textColor="@color/white"
-        android:text="אפליקציה לזיהוי מינרלים \n פותחה בקורס מבוא למדעי כדור הארץ\n  מרצה -פרופסור יגאל אראל\n פיתוח- נילי דוידור, תמר ענתבי" 
+        android:text="אפליקציה לזיהוי מינרלים\nפותחה בקורס מבוא למדעי כדור הארץ\nמרצה -פרופסור יגאל אראל\nפיתוח- נילי דוידור, תמר ענתבי" 
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button

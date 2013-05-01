@@ -14,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:layout_gravity="right"
         android:textColor="@color/white"
-        android:text="פרופסור יגאל אראל- על ההכרות עם הנושא, והתמיכה בתהליך הפיתוח\n דוקטור רונית קסל- על העזרה וההכוונה המקצועית"
+        android:text="פרופסור יגאל אראל- על ההכרות עם הנושא, והתמיכה בתהליך הפיתוח\nדוקטור רונית קסל- על העזרה וההכוונה המקצועית"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
