@@ -16,10 +16,9 @@
     <Button
         android:id="@+id/button1"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="63dp"
-        android:layout_height="52dp"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/goback"
-        android:text="חזור" />
+        android:background="@drawable/goback" />
 
 </LinearLayout>

@@ -2,21 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/blue"
-    android:layout_gravity="right" >
+    android:orientation="vertical"
+    android:textAlignment="center" >
 
     <TextView
         android:id="@+id/tank"
         android:layout_width="248dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:layout_marginTop="30dp"
-        android:layout_gravity="right"
-        android:textColor="@color/white"
-        android:text="פרופסור יגאל אראל- על ההכרות עם הנושא, והתמיכה בתהליך הפיתוח\nדוקטור רונית קסל- על העזרה וההכוונה המקצועית"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:text="פרופסור יגאל אראל- על ההכרות עם הנושא, והתמיכה בתהליך הפיתוח"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="61dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/stone" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="דוקטור רונית קסל- על העזרה \nוההכוונה המקצועית"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
        
 </LinearLayout>
+
 

@@ -22,6 +22,16 @@ public class MainActivity extends Activity {
 	private Cursor cursor;
 	private String hardSel;
 	private String col;
+	
+	@Override
+	protected void onDestroy()
+	{
+		
+		cursor.close();
+		db.close();
+		super.onDestroy();
+	}
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -109,7 +119,6 @@ public class MainActivity extends Activity {
 				do{  
 					String entry2 =cursor.getString(cursor.getColumnIndex("sf"));
 					sf.add(entry2);
-					Log.v("val",entry2);
 					cursor.moveToNext();
 				}while(!cursor.isAfterLast());
 			}
@@ -141,7 +150,6 @@ public class MainActivity extends Activity {
 			}
 			for (int i = 0; i < specials.length; i++) {
 
-				System.out.println("arrr"+specials[i]);
 			}
 			
 			cursor=db.rawQuery(select + where,specials);
@@ -152,7 +160,6 @@ public class MainActivity extends Activity {
 				do{  
 					String entry2 =cursor.getString(cursor.getColumnIndex("name"));
 					if(minerals.add(entry2)){
-//						Log.v("MINERLLLLLLL",entry2);
 						}
 					cursor.moveToNext();
 				}while(!cursor.isAfterLast());

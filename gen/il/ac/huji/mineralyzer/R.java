@@ -26,31 +26,33 @@ public final class R {
     }
     public static final class drawable {
         public static final int about=0x7f020000;
-        public static final int back1=0x7f020001;
-        public static final int goback=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
+        public static final int goback=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int mineral=0x7f020003;
         public static final int open=0x7f020004;
-        public static final int select2=0x7f020005;
+        public static final int select=0x7f020005;
         public static final int start=0x7f020006;
-        public static final int thanks=0x7f020007;
+        public static final int stone=0x7f020007;
+        public static final int thanks=0x7f020008;
     }
     public static final class id {
-        public static final int about=0x7f090006;
-        public static final int action_settings=0x7f09000f;
-        public static final int button1=0x7f09000b;
-        public static final int desc=0x7f09000a;
-        public static final int getchoice=0x7f09000e;
-        public static final int hardnessList=0x7f090007;
-        public static final int imageView2=0x7f090004;
-        public static final int minerals=0x7f09000c;
-        public static final int name=0x7f090008;
-        public static final int pic=0x7f090009;
-        public static final int specialList=0x7f09000d;
-        public static final int start=0x7f090003;
+        public static final int about=0x7f090007;
+        public static final int action_settings=0x7f090010;
+        public static final int button1=0x7f09000c;
+        public static final int desc=0x7f09000b;
+        public static final int getchoice=0x7f09000f;
+        public static final int hardnessList=0x7f090008;
+        public static final int imageView1=0x7f090001;
+        public static final int imageView2=0x7f090005;
+        public static final int minerals=0x7f09000d;
+        public static final int name=0x7f090009;
+        public static final int pic=0x7f09000a;
+        public static final int specialList=0x7f09000e;
+        public static final int start=0x7f090004;
         public static final int tank=0x7f090000;
-        public static final int textView1=0x7f090001;
-        public static final int textView2=0x7f090002;
-        public static final int thanks=0x7f090005;
+        public static final int textView1=0x7f090002;
+        public static final int textView2=0x7f090003;
+        public static final int thanks=0x7f090006;
     }
     public static final class layout {
         public static final int about=0x7f030000;
