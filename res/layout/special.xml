@@ -6,14 +6,6 @@
     android:layout_gravity="right"
     android:background="@color/blue" >
 
-	<Button
-	    android:id="@+id/getchoice"
-	    android:layout_width="69dp"
-	    android:layout_height="70dp"
-        android:layout_marginLeft="70dp"
-	    android:background="@drawable/start"
-	    android:text="בצע" />
-
     <ListView
         android:id="@+id/specialList"
         android:textColor="@color/white"
@@ -21,5 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right" >
     </ListView>
+    
+    <Button
+	    android:id="@+id/getchoice"
+	    android:layout_width="69dp"
+	    android:layout_height="70dp"
+        android:layout_marginLeft="70dp"
+	    android:background="@drawable/select2"
+	    android:text="בצע" />
 
 </LinearLayout>
