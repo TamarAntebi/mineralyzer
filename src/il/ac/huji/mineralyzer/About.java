@@ -22,14 +22,14 @@ public class About extends Activity{
 		//using the same UI
 		TextView text=(TextView)findViewById(R.id.tank);
 		//		Intent intent = getIntent();
-		Button tank=(Button)findViewById(R.id.button1);
-		tank.setOnClickListener(new OnClickListener() {
-			public void onClick(View v) {
-
-				Intent resultIntent = new Intent();
-				setResult(RESULT_OK, resultIntent);
-				finish();
-			}
-		});
+//		Button tank=(Button)findViewById(R.id.button1);
+//		tank.setOnClickListener(new OnClickListener() {
+//			public void onClick(View v) {
+//
+//				Intent resultIntent = new Intent();
+//				setResult(RESULT_OK, resultIntent);
+//				finish();
+//			}
+//		});
 	}
 }

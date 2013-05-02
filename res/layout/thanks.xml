@@ -17,14 +17,6 @@
         android:text="פרופסור יגאל אראל- על ההכרות עם הנושא, והתמיכה בתהליך הפיתוח\nדוקטור רונית קסל- על העזרה וההכוונה המקצועית"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button
-        android:id="@+id/button1"
-        style="?android:attr/buttonStyleSmall"
-         android:layout_marginLeft="70dp"
-        android:layout_marginTop="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="חזור" />
        
 </LinearLayout>
 
