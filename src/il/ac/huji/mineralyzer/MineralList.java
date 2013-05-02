@@ -57,16 +57,16 @@ public class MineralList extends Activity{
 				startActivityForResult(intent, 1333);
 			}
 		});
-		Button tank=(Button)findViewById(R.id.button1);
-		tank.setOnClickListener(new OnClickListener() {
-			public void onClick(View v) {
-
-				Intent resultIntent = new Intent();
-				setResult(RESULT_OK, resultIntent);
-				finish();
-			}
-		});
-	
+//		Button tank=(Button)findViewById(R.id.button1);
+//		tank.setOnClickListener(new OnClickListener() {
+//			public void onClick(View v) {
+//
+//				Intent resultIntent = new Intent();
+//				setResult(RESULT_OK, resultIntent);
+//				finish();
+//			}
+//		});
+//	
 
 	}
 }
