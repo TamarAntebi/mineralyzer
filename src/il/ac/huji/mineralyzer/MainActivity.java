@@ -23,14 +23,14 @@ public class MainActivity extends Activity {
 	private String hardSel;
 	private String col;
 	
-	@Override
-	protected void onDestroy()
-	{
-		
-		cursor.close();
-		db.close();
-		super.onDestroy();
-	}
+//	@Override
+//	protected void onDestroy()
+//	{
+//		
+//		cursor.close();
+//		db.close();
+//		super.onDestroy();
+//	}
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
